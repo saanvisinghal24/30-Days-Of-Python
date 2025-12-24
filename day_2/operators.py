@@ -16,8 +16,8 @@ print('Perimeter of triangle:',Perimeter)
 
 #rectangle
 Length = input('Enter length:')
-Breadth = input('Enter breadth:')
-area = Length * Breadth
+B = input('Enter breadth:')
+area = Length * B
 print('Area of rectangle:',area)
-Perimeter_of_rectangle = 2*(Length+Breadth)
+Perimeter_of_rectangle = 2*(Length+B)
 print('Perimeter of rectangle:',Perimeter_of_rectangle)
