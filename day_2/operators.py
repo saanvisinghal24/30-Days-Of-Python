@@ -8,15 +8,15 @@ Area_of_triangle = 0.5*base*height
 print('Area of triangle is:',Area_of_triangle)
 
 #perimeter of triangle
-a = input('Side a:')
-b = input('Side b:')
-c = input('Side c:')
+a = int(input('Side a:'))
+b = int(input('Side b:'))
+c = int(input('Side c:'))
 Perimeter = a+b+c
 print('Perimeter of triangle:',Perimeter)
 
 #rectangle
-Length = input('Enter length:')
-B = input('Enter breadth:')
+Length = int(input('Enter length:'))
+B = int(input('Enter breadth:'))
 area = Length * B
 print('Area of rectangle:',area)
 Perimeter_of_rectangle = 2*(Length+B)
